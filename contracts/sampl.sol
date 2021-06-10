@@ -10,8 +10,6 @@ contract SAMPL is ERC20 {
 	// AMPL address on Rinkeby
 	address constant AMPL = 0x027dbcA046ca156De9622cD1e2D907d375e53aa7;
 
-	// AMPL 9 decimals, Wrapped AMPL - 18 by default
-
 	constructor () ERC20("Wrapped AMPL", "SAMPL") {}
 
 	/* @dev $SAMPL has the same number of decimals as $AMPL*/
