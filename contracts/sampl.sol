@@ -50,8 +50,8 @@ contract SAMPL is ERC20 {
 	/* * 	 
      *  S = SAMPL totalSupply
 	 *  A = AMPL pool balance
-	 *  s = amount of minted SAMPL
-	 *  a = amount of deposited AMPL
+	 *  s = amount of burnt SAMPL
+	 *  a = amount of AMPL to withdraw
 	 *  a = s * A / S
 	*/
 
